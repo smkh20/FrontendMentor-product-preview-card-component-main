@@ -9,3 +9,9 @@ $color_White: hsl(0, 0%, 100%);
 body {
   background-color: $color_Cream;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin: 0 auto;
+}
