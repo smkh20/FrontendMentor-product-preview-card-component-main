@@ -17,8 +17,29 @@ body {
   flex-direction: column;
   width: 375px;
   margin: 0 auto;
+  font-size: 14px;
   img {
-      max-width: 100%;
-      border-radius: 10px 10px 0 0;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
   }
+  > div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: $color_White;
+    p {
+      margin-bottom: 5px;
+    }
+  }
+}
+.first_font {
+  font-family: $first_font;
+  font-weight: 700;
+  color: $color_VeryDarkBlue;
+  font-size: 31px;
+}
+.second_font500 {
+  font-family: $second_font;
+  font-weight: 500;
+  color: $color_DarkGrayishBlue;
 }

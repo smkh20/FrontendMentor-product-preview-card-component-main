@@ -16,10 +16,33 @@ body {
   flex-direction: column;
   width: 375px;
   margin: 0 auto;
+  font-size: 14px;
 }
 .container img {
   max-width: 100%;
   border-radius: 10px 10px 0 0;
+}
+.container > div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+.container > div p {
+  margin-bottom: 5px;
+}
+
+.first_font {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: hsl(212deg, 21%, 14%);
+  font-size: 31px;
+}
+
+.second_font500 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228deg, 12%, 48%);
 }
 
 /*# sourceMappingURL=style.css.map */
