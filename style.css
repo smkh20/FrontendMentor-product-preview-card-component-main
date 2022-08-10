@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   padding: 20px;
   background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0 0 3px 3px;
 }
 .container > div p {
   margin-bottom: 5px;
