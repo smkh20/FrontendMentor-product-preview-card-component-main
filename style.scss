@@ -6,3 +6,6 @@ $color_Cream: hsl(30, 38%, 92%);
 $color_VeryDarkBlue: hsl(212, 21%, 14%);
 $color_DarkGrayishBlue: hsl(228, 12%, 48%);
 $color_White: hsl(0, 0%, 100%);
+body {
+  background-color: $color_Cream;
+}
