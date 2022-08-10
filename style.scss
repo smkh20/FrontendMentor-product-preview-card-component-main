@@ -8,6 +8,9 @@ $color_DarkGrayishBlue: hsl(228, 12%, 48%);
 $color_White: hsl(0, 0%, 100%);
 body {
   background-color: $color_Cream;
+  display: flex;
+  height: 100vh;
+  align-items: center
 }
 .container {
   display: flex;
