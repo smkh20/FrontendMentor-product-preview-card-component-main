@@ -44,3 +44,19 @@ body {
   font-weight: 500;
   color: $color_DarkGrayishBlue;
 }
+.container_price {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  .price {
+    color: $color_DarkCyan;
+  }
+  .oldprice {
+    font-family: $second_font;
+    font-weight: 500;
+    color: $color_DarkGrayishBlue;
+    text-decoration: line-through;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+}

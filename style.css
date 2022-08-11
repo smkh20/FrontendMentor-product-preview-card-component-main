@@ -46,4 +46,21 @@ body {
   color: hsl(228deg, 12%, 48%);
 }
 
+.container_price {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.container_price .price {
+  color: hsl(158deg, 36%, 37%);
+}
+.container_price .oldprice {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228deg, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
