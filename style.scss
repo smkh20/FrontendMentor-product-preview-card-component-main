@@ -60,3 +60,14 @@ body {
     margin-left: 20px;
   }
 }
+.btn {
+  color: $color_White;
+  background-color: $color_DarkCyan;
+  border: none;
+  border-radius: 7px;
+  height: 43px;
+  &:hover {
+    cursor: pointer;
+    background-color:rgb(0, 44, 0);
+  }
+}
