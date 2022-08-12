@@ -18,14 +18,15 @@ body {
   width: 375px;
   margin: 0 auto;
   font-size: 14px;
-  @media (min-width: 376px) {
+  border-radius: 10px;
+  overflow: hidden;
+  @media (min-width: 600px) {
     flex-direction: row;
     width: 530px;
   }
   img {
     max-width: 100%;
-    border-radius: 10px 10px 0 0;
-    @media (min-width: 376px) {
+    @media (min-width: 600px) {
       content: url("images/image-product-desktop.jpg");
       max-width: 50%;
     }
@@ -35,7 +36,6 @@ body {
     flex-direction: column;
     padding: 20px;
     background-color: $color_White;
-    border-radius: 0 0 10px 10px;
     p {
       margin-bottom: 5px;
     }

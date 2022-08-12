@@ -17,8 +17,10 @@ body {
   width: 375px;
   margin: 0 auto;
   font-size: 14px;
+  border-radius: 10px;
+  overflow: hidden;
 }
-@media (min-width: 376px) {
+@media (min-width: 600px) {
   .container {
     flex-direction: row;
     width: 530px;
@@ -26,9 +28,8 @@ body {
 }
 .container img {
   max-width: 100%;
-  border-radius: 10px 10px 0 0;
 }
-@media (min-width: 376px) {
+@media (min-width: 600px) {
   .container img {
     content: url("images/image-product-desktop.jpg");
     max-width: 50%;
@@ -39,7 +40,6 @@ body {
   flex-direction: column;
   padding: 20px;
   background-color: hsl(0deg, 0%, 100%);
-  border-radius: 0 0 10px 10px;
 }
 .container > div p {
   margin-bottom: 5px;
